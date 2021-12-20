@@ -1,0 +1,192 @@
+.header-index {
+    background-color: #EAC926;
+    margin: 0;
+    padding: 10px;
+}
+
+.img-search-container-header-index {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.body-index {
+    background-color: gainsboro;
+}
+
+.logo-ml-img {
+    width: 50%;
+    max-width: 244px;
+}
+
+.img-card-index {
+    max-width: 244px;
+}
+
+.img-banner-index {
+    width: 100%;
+}
+
+.p-index {
+    font-size: 12px;
+}
+
+.main-index {
+    margin: 0 auto;
+    text-align: center;
+    width: 90%;
+}
+
+.card-index {
+    background-color: white;
+    border: solid 1px gainsboro;
+    border-radius: 5px;
+    margin: 0 auto 10px;
+    max-width: 250px;
+}
+
+.detail-card-index {
+    align-items: center;
+    border-top: solid 1px #ebebeb;
+    display: flex;
+    flex-direction: column;
+    padding: auto 15px;
+    position: relative;
+}
+
+.search-p {
+    display: flex;
+    height: 30px;
+    position: relative;
+    width: 50%;
+}
+
+#search {
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.search-p i {
+    background-color: white;
+    position: absolute;
+    right: 4px;
+    top: 5px;
+}
+
+.truck-card-index {
+    align-items: center;
+    border: solid 1.5px #39b54a;
+    border-radius: 15px;
+    color: #39b54a;
+    display: flex;
+    height: 28px;
+    justify-content: center;
+    margin: 0 auto;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    width: 28px;
+}
+
+.h3-index {
+    font-size: 24px;
+}
+
+.price-index {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.p-16{
+    font-size: 16px;
+}
+
+.price-discount-container-index {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.description-card-index {
+    display: none;
+}
+
+.discount-card-index {
+    color: green;
+}
+
+ul li {
+    color: black;
+}
+
+.burger-menu {
+    background-color: #03264C;
+    border-radius: 4px;
+    margin: 0 auto;
+    padding: 8px;
+    text-align: center;
+    width: 20px;
+}
+
+.burger-menu i {
+    color: white;
+}
+
+.footer-index {
+    background-color: white;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.footer-index div i{
+    color: #1259c3;
+    font-size: 30px;
+}
+
+.span-footer-index {
+    font-size: 12px;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.nav-index {
+    display: none;
+}
+
+@media(min-width:361px) {
+    .nav-index {
+        display: block;
+    }
+
+    .nav-index ul {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .burger-menu {
+        display: none;
+    }
+
+    .description-card-index {
+        display: block;
+    }
+
+    .card-index {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+    section {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media(min-width: 1000px){
+    .container-index-1 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+    }
+}
